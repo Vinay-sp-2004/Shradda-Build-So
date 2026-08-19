@@ -84,47 +84,157 @@ export const stats = [
 
 export const projects = [
   {
-    title: "Skyline Residences",
+    title: "Residences Project-01",
     category: "Residential",
-    image:
-      "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    image: "/projects/Sample1/pic1.jpeg",
+    photos: [
+      "/projects/Sample1/pic1.jpeg",
+      "/projects/Sample1/pic2.jpeg",
+      "/projects/Sample1/pic3.jpeg",
+      "/projects/Sample1/pic4.jpeg",
+      "/projects/Sample1/pic5.jpeg",
+    ],
     location: "Bengaluru, KA",
   },
   {
-    title: "Atria Business Park",
-    category: "Commercial",
-    image:
-      "https://images.pexels.com/photos/1313534/pexels-photo-1313534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    location: "Hyderabad, TS",
-  },
-  {
-    title: "The Coastal Villa",
+    title: "Residences Project-02",
     category: "Residential",
-    image:
-      "https://images.pexels.com/photos/7031604/pexels-photo-7031604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    location: "Goa, GA",
+    image: "/projects/Sample2/pic1.jpeg",
+    photos: [
+      "/projects/Sample2/pic1.jpeg",
+      "/projects/Sample2/pic2.jpeg",
+      "/projects/Sample2/pic3.jpeg",
+      "/projects/Sample2/pic4.jpeg",
+      "/projects/Sample2/pic5.jpeg",
+      "/projects/Sample2/pic6.jpeg",
+    ],
+    location: "Bengaluru, KA",
   },
   {
-    title: "Meridian Interiors",
-    category: "Interior",
-    image:
-      "https://images.pexels.com/photos/8089172/pexels-photo-8089172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    location: "Pune, MH",
-  },
-  {
-    title: "Hillside Estate",
-    category: "Turnkey",
-    image:
-      "https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    location: "Coimbatore, TN",
-  },
-  {
-    title: "Lumina Towers",
+    title: "Commercial Project-03",
     category: "Commercial",
-    image:
-      "https://images.pexels.com/photos/11861957/pexels-photo-11861957.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    location: "Mumbai, MH",
+    image: "/projects/Sample3/pic1.jpeg",
+    photos: [
+      "/projects/Sample3/pic1.jpeg",
+      "/projects/Sample3/pic2.jpeg",
+      "/projects/Sample3/pic3.jpeg",
+      "/projects/Sample3/pic4.jpeg",
+      "/projects/Sample3/pic5.jpeg",
+    ],
+    location: "Bengaluru, KA",
   },
+    {
+    title: "Interior Project-04",
+    category: "Interior",
+    image: "/projects/Sample4/pic1.jpeg",
+    photos: [
+      "/projects/Sample4/pic1.jpeg",
+      "/projects/Sample4/pic2.jpeg",
+      "/projects/Sample4/pic3.jpeg",
+      "/projects/Sample4/pic4.jpeg",
+      "/projects/Sample4/pic5.jpeg",
+    ],
+    location: "Bengaluru, KA",
+  },
+  {
+    title: "Turnkey Project-05",
+    category: "Turnkey",
+    image: "/projects/Sample5/pic1.jpeg",
+    photos: [
+      "/projects/Sample5/pic1.jpeg",
+      "/projects/Sample5/pic2.jpeg",
+      "/projects/Sample5/pic3.jpeg",
+      "/projects/Sample5/pic4.jpeg",
+      "/projects/Sample5/pic5.jpeg",
+    ],
+    location: "Bengaluru, KA",
+  },
+    {
+    title: "Turnkey Project-06",
+    category: "Turnkey",
+    image: "/projects/Sample6/pic1.jpeg",
+    photos: [
+      "/projects/Sample6/pic1.jpeg",
+      "/projects/Sample6/pic2.jpeg",
+      "/projects/Sample6/pic3.jpeg",
+      "/projects/Sample6/pic4.jpeg",
+      "/projects/Sample6/pic5.jpeg",
+    ],
+    location: "Bengaluru, KA",
+  },
+      {
+    title: "Residences Project-07",
+    category: "Residential",
+    image: "/projects/Sample7/pic1.jpeg",
+    photos: [
+      "/projects/Sample7/pic1.jpeg",
+      "/projects/Sample7/pic2.jpeg",
+      "/projects/Sample7/pic3.jpeg",
+      "/projects/Sample7/pic4.jpeg",
+      "/projects/Sample7/pic5.jpeg",
+    ],
+    location: "Bengaluru, KA",
+  },
+  // {
+  //   title: "Skyline Residences",
+  //   category: "Residential",
+  //   image:
+  //     "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   photos: [
+  //     "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   ],
+  //   location: "Bengaluru, KA",
+  // },
+  // {
+  //   title: "Atria Business Park",
+  //   category: "Commercial",
+  //   image:
+  //     "https://images.pexels.com/photos/1313534/pexels-photo-1313534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   photos: [
+  //     "https://images.pexels.com/photos/1313534/pexels-photo-1313534.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   ],
+  //   location: "Hyderabad, TS",
+  // },
+  // {
+  //   title: "The Coastal Villa",
+  //   category: "Residential",
+  //   image:
+  //     "https://images.pexels.com/photos/7031604/pexels-photo-7031604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   photos: [
+  //     "https://images.pexels.com/photos/7031604/pexels-photo-7031604.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   ],
+  //   location: "Goa, GA",
+  // },
+  // {
+  //   title: "Meridian Interiors",
+  //   category: "Interior",
+  //   image:
+  //     "https://images.pexels.com/photos/8089172/pexels-photo-8089172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   photos: [
+  //     "https://images.pexels.com/photos/8089172/pexels-photo-8089172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   ],
+  //   location: "Pune, MH",
+  // },
+  // {
+  //   title: "Hillside Estate",
+  //   category: "Turnkey",
+  //   image:
+  //     "https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   photos: [
+  //     "https://images.pexels.com/photos/7031406/pexels-photo-7031406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   ],
+  //   location: "Coimbatore, TN",
+  // },
+  // {
+  //   title: "Lumina Towers",
+  //   category: "Commercial",
+  //   image:
+  //     "https://images.pexels.com/photos/11861957/pexels-photo-11861957.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   photos: [
+  //     "https://images.pexels.com/photos/11861957/pexels-photo-11861957.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+  //   ],
+  //   location: "Mumbai, MH",
+  // },
 ];
 
 export const processSteps = [
@@ -185,3 +295,4 @@ export const testimonials = [
       "From design to handover, the professionalism was outstanding. They understood our aesthetic perfectly and the quality of construction is superb.",
   },
 ];
+.2.toExponential.apply.apply
