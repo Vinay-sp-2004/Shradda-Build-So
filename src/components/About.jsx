@@ -14,7 +14,7 @@ export default function About() {
         <div className="about__media reveal">
           <div className="about__img-main">
             <img
-              src="https://images.pexels.com/photos/8134821/pexels-photo-8134821.jpeg?auto=compress&cs=tinysrgb&h=750&w=900"
+              src="/projects/Sample6/pic3.webp"
               alt="Contemporary two-story luxury home built by Shraddha Build Solutions"
               loading="lazy"
             />
